@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C54;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.app-links img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.features, .global-solutions, .provision, .reviews {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features h2, .global-solutions h2, .provision h2, .reviews h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.feature-icons, .solution-grid, .provision-details, .review-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item, .solution-item, .provision-item, .review-item {
+    background-color: #4B4B8C;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.provision-item {
+    flex: 1 1 calc(50% - 40px);
+}
